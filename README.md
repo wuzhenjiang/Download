@@ -32,5 +32,5 @@ if (downLoadTool != null) {
 ```
 
 ##下载图片
-![](https://github.com/wuzhenjiang/Download/develop/app/src/main/res/drawable/download_icon.png)
+![image width="150" height="150"](https://github.com/wuzhenjiang/Download/raw/develop/app/src/main/res/drawable/download_icon.png)
 
