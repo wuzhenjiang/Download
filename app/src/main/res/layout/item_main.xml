@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#909090"
+              android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/item_main"
+        android:text="下载APK"
+    />
+</LinearLayout>
