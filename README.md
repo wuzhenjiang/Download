@@ -1,6 +1,6 @@
 # Download
 apk download 、 FileProvider 、6.0permissions  支持8.0有进度条的apk下载
-代码使用
+##代码使用
 
 1.通过url下载
 ```Java
@@ -30,3 +30,7 @@ if (downLoadTool != null) {
     downLoadTool.cancelDownload();
 }
 ```
+
+##下载图片
+![](https://github.com/wuzhenjiang/Download/develop/app/src/main/res/drawable/download_icon.png)
+
