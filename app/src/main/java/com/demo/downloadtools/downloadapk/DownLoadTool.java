@@ -7,6 +7,8 @@ import com.demo.downloadtools.utils.Constants;
 
 import java.io.File;
 
+import io.reactivex.schedulers.Schedulers;
+
 /**
  * @author wzj
  * @time 2018/3/26 11:51
@@ -28,7 +30,8 @@ public class DownLoadTool {
                 apkName;//外部存储
         FileUtils.createDirs(Constants.APK_DIRS);
         mDownloadObserver=new DownloadObserver(path,ondownloadlistener);
-        HttpUtils.getHttpService().downloadRange(url).subscribe(mDownloadObserver);
+        HttpUtils.getHttpService().downloadRange(url).subscribeOn(Schedulers.io()).observeOn
+                (Schedulers.io()).subscribe(mDownloadObserver);
     }
 
     public void cancelDownload(){
