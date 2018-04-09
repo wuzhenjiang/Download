@@ -31,7 +31,7 @@ if (downLoadTool != null) {
 }
 ```
 
-##下载图片\<br> 
+##下载图片<br> 
 
 ![image](https://github.com/wuzhenjiang/Download/raw/develop/app/src/main/res/drawable/download_icon_meitu_2.jpg)
 
